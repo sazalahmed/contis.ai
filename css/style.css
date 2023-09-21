@@ -114,6 +114,11 @@ button:focus {
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
 }
 
 .tf__common_btn2 {
@@ -122,12 +127,27 @@ button:focus {
   color: var(--colorSecondary);
 }
 
+.tf__common_btn:hover {
+  background: var(--colorPrimary);
+  color: var(--colorWhite);
+}
+
+.tf__common_btn2:hover {
+  background: var(--colorPrimary) !important;
+  color: var(--colorWhite) !important;
+  border-color: var(--colorPrimary);
+}
+
 .tf__common_btn i {
   margin-left: 10px;
 }
 
 .tf__common_btn2 i {
   color: var(--paraColor) !important;
+}
+
+.tf__common_btn2:hover i {
+  color: var(--colorWhite) !important;
 }
 
 .tf__common_heading {
@@ -161,16 +181,6 @@ button:focus {
 .tf__common_heading_color {
   color: var(--colorSecondary) !important;
 }
-
-
-
-
-
-
-
-
-
-
 
 /*==============================
   GLOBAL CSS START
@@ -362,6 +372,11 @@ button:focus {
   background: none !important;
 }
 
+.tf__menu_2nd_btn:hover {
+  background: var(--colorPrimary) !important;
+  color: var(--colorSecondary);
+}
+
 .tf__main_menu.menu_fix {
   position: fixed;
   top: 0;
@@ -416,11 +431,6 @@ button:focus {
 }
 
 /*banner end*/
-
-
-
-
-
 
 
 /*service start*/
@@ -765,7 +775,6 @@ button:focus {
 /*work process end*/
 
 
-
 /*content creator start*/
 .tf__content_creator {
   border-radius: 40px 40px 0px 0px;
@@ -883,7 +892,6 @@ button:focus {
 /*content creator end*/
 
 
-
 /*testimonial start*/
 .tf__testimonial {
   background: var(--colorSecondary);
@@ -948,7 +956,6 @@ button:focus {
 }
 
 /*testimonial end*/
-
 
 
 /*pricing start*/
@@ -1478,6 +1485,10 @@ button:focus {
 
 .tf__single_benifit:hover h5 {
   color: var(--colorPrimary) !important;
+}
+
+.tf__benefits_heading p {
+  color: var(--paraColor);
 }
 
 .tf__benefit_link {
@@ -2057,24 +2068,99 @@ button:focus {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*==============================
-  CSS START
+  CONTACT START
 ===============================*/
+.tf__contact_area {
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(17, 16, 19, 0.10);
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
 
-/*css start*/
+.tf__contact_area span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  line-height: 50px;
+  text-align: center;
+  color: var(--colorWhite);
+  background: var(--colorPrimary);
+  float: left;
+  margin-right: 12px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
 
-/*css end*/
+.tf__contact_area:hover {
+  background: var(--colorPrimary);
+}
+
+.tf__contact_area:hover span {
+  background: var(--colorWhite);
+  color: var(--colorPrimary);
+}
+
+.tf__contact_icon_text p {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--headingFont);
+  color: var(--colorSecondary);
+  letter-spacing: -1px;
+}
+
+.tf__contact_icon_text a {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--headingFont);
+  color: rgba(17, 16, 19, 0.60);
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+.tf__contact_area:hover .tf__contact_icon_text a {
+  color: var(--colorWhite);
+}
+
+.tf__contact_icon li a {
+  width: 32px;
+  height: 32px;
+  margin-right: 25px;
+}
+
+.tf__contact_form {
+  background: #F8F6F9;
+}
+
+.tf__contact_form_input input,
+.tf__contact_form_input textarea {
+  background: var(--colorWhite);
+}
+
+.tf__contact_form_input label {
+  color: #04050642;
+}
+
+.tf__contact_footer {
+  background: #F8F6F9;
+}
 
 /*==============================
-  CSS END
+  CONTACT END
 ===============================*/
