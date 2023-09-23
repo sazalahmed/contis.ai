@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" href="images/favicon.jpg">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -46,26 +47,28 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link " href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">about</a>
+                    <a class="nav-link active" href="about.html">about</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="features.html">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Use Cases</a>
+                    <a class="nav-link" href="blog.html">blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Pages <i class="far fa-plus"></i></a>
                     <ul class="tf__dropdown">
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="pricing.html">pricing</a></li>
+                        <li><a href="blog_details.html">Blog details</a></li>
+                        <li><a href="free_item.html">free iteam</a></li>
+                        <li><a href="use_case.html">use case</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
+                    <a class="nav-link" href="contact.html">contact</a>
                 </li>
             </ul>
             <ul class="tf__menu_btn d-flex flex-wrap align-items-center">
@@ -82,7 +85,7 @@
     <!--============================
         ABOUT START
     ==============================-->
-    <section class="tf__about pt_200 pb_90">
+    <section class="tf__about pt_200 pb_95">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
@@ -100,7 +103,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tf__brand pt_80">
+            <div class="tf__brand pt_75">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="tf__brand_heading tf__about_brand_heading">
@@ -147,7 +150,7 @@
         BENEFITS START
     ==============================-->
     <section class="tf__benefits">
-        <div class="tf___main_benefits pt_95 pb_95">
+        <div class="tf___main_benefits pt_100 pb_100">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 m-auto">
@@ -243,23 +246,45 @@
                     </div>
                 </div>
             </div>
-            <div class="tf__single_testimonial tf__single_abot_testimonial">
-                <div class="row">
-                    <div class="col-xl-5">
-                        <div class="tf__testimonial_img">
-                            <img src="images/testimonial_img.jpg" alt="testimonial" class="img-fluid w-100">
+            <div class="tf__single_testimonial tf__single_about_testimonial">
+                <div class="row testi_slider">
+                    <div class="col-12">
+                        <div class="tf__testimonial_item">
+                            <div class="tf__testimonial_img">
+                                <img src="images/testimonial_img.jpg" alt="testimonial" class="img-fluid w-100">
+                            </div>
+                            <div class="tf__testimonial_text">
+                                <h4>The any word software is a great and effactive tool…</h4>
+                                <p>I used the 7 day trial was impressed by the writing aihut created. I wrote
+                                    several posts
+                                    with it on Facebook then used it to wrete an Article on Linkedin. aihut makes me
+                                    feel
+                                    very smart because it generated ideas from my ideas.</p>
+
+                                <div class="tf__calients_name">
+                                    <h6>-Kahala Williams</h6>
+                                    <p>United States</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 my-auto">
-                        <div class="tf__testimonial_text">
-                            <h4>The any word software is a great and effactive tool…</h4>
-                            <p>I used the 7 day trial was impressed by the writing aihut created. I wrote several posts
-                                with it on Facebook then used it to wrete an Article on Linkedin. aihut makes me feel
-                                very smart because it generated ideas from my ideas.</p>
+                    <div class="col-12">
+                        <div class="tf__testimonial_item">
+                            <div class="tf__testimonial_img">
+                                <img src="images/testimonial_img.jpg" alt="testimonial" class="img-fluid w-100">
+                            </div>
+                            <div class="tf__testimonial_text">
+                                <h4>The any word software is a great and effactive tool…</h4>
+                                <p>I used the 7 day trial was impressed by the writing aihut created. I wrote
+                                    several posts
+                                    with it on Facebook then used it to wrete an Article on Linkedin. aihut makes me
+                                    feel
+                                    very smart because it generated ideas from my ideas.</p>
 
-                            <div class="tf__calients_name">
-                                <h6>-Kahala Williams</h6>
-                                <p>United States</p>
+                                <div class="tf__calients_name">
+                                    <h6>-Kahala Williams</h6>
+                                    <p>United States</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -276,11 +301,11 @@
     <!--============================
         FAQ START
     ==============================-->
-    <section class="tf__faq tf__about_faq pt_100 pb_250">
+    <section class="tf__faq tf__about_faq pt_100 pb_240">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 m-auto">
-                    <div class="tf__common_heading">
+                    <div class="tf__common_heading tf__faq_common_heading">
                         <h6>faq</h6>
                         <h2 class="tf__common_heading_color">Frequently asked question</h2>
                     </div>
@@ -525,6 +550,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <!--font-awesome js-->
     <script src="js/Font-Awesome.js"></script>
+    <script src="js/slick.min.js"></script>
 
 
     <!--main js-->
