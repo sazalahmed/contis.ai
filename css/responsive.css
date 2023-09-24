@@ -8,4 +8,119 @@
 
 @media (min-width: 576px) and (max-width: 767.99px) {}
 
-@media (max-width: 575.99px) {}
+
+
+
+@media (max-width: 575.99px) {
+
+
+
+    /* home page start */
+
+    /* menu start */
+    .tf__main_menu {
+        border-bottom: 1px solid #00000040;
+        padding: 0;
+    }
+
+    .tf__main_menu .container-fluid {
+        padding: 15px 0;
+    }
+
+    .tf__main_menu .navbar-nav {
+        background: var(--colorWhite);
+    }
+
+    .tf__main_menu #navbarSupportedContent {
+        margin-top: 15px;
+    }
+
+    .tf__main_menu .tf__menu_btn {
+        background: var(--colorWhite);
+        padding: 20px 25px;
+        border-bottom: 1px solid #00000040;
+    }
+
+    .tf__main_menu .navbar-brand {
+        margin-left: 12px;
+        width: 120px;
+    }
+
+    .tf__main_menu .navbar-nav .nav-item>a {
+        line-height: 50px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .tf__dropdown {
+        left: 25px;
+        max-height: 250px;
+    }
+
+    .tf__main_menu .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        line-height: 39px;
+        text-align: center;
+        padding: 0;
+        background: var(--colorSecondary);
+        color: var(--colorWhite);
+        font-size: 16px;
+        margin-right: 12px;
+    }
+
+    .tf__main_menu .navbar-toggler .close_icon_close {
+        display: none;
+    }
+
+    .tf__main_menu .navbar-toggler.show {
+        background: var(--colorPrimary);
+    }
+
+    .tf__main_menu .navbar-toggler.show .menu_icon_bar {
+        display: none;
+    }
+
+    .tf__main_menu .navbar-toggler.show .close_icon_close {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* home page end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

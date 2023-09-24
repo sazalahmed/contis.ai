@@ -166,15 +166,14 @@ button:focus {
 ===============================*/
 
 
-
 /*==============================
   HOME PAGE START
 ===============================*/
 /* topbar start */
 .tf__topbar {
   width: 100%;
-  height: 36px;
-  line-height: 36px;
+  height: 40px;
+  line-height: 40px;
   background: var(--colorSecondary);
   position: fixed;
   top: 0;
@@ -198,7 +197,7 @@ button:focus {
 
 /* main manu start */
 .tf__main_menu {
-  padding: 0px 40px;
+  padding: 0px 28px;
   background: transparent;
   width: 100%;
   height: 70px;
@@ -211,7 +210,6 @@ button:focus {
   -moz-transition: all linear .3s;
   -ms-transition: all linear .3s;
   -o-transition: all linear .3s;
-  /* border-bottom: 1px solid #00a6fb26; */
 }
 
 .tf__main_menu .navbar-brand {
@@ -977,12 +975,11 @@ button:focus {
   font-weight: 500;
 }
 
-
 .tf__testimonial .nextArrow,
 .tf__testimonial .prevArrow {
   width: 40px;
   height: 40px;
-  background: var(--colorSecondary);
+  background: var(--paraColor);
   color: var(--colorWhite);
   line-height: 40px;
   text-align: center;
@@ -991,10 +988,26 @@ button:focus {
   position: absolute;
   bottom: 0;
   right: 0;
+  cursor: pointer;
+  transition: ease-in-out .3s;
+  -webkit-transition: ease-in-out .3s;
+  -moz-transition: ease-in-out .3s;
+  -ms-transition: ease-in-out .3s;
+  -o-transition: ease-in-out .3s;
+  z-index: 2;
 }
 
 .tf__testimonial .prevArrow {
-  right: 60px;
+  right: 52px;
+}
+
+.tf__testimonial .nextArrow:hover,
+.tf__testimonial .prevArrow:hover {
+  background: var(--colorSecondary);
+}
+
+.tf__testimonial .nextArrow {
+  background: var(--colorSecondary);
 }
 
 /*testimonial end*/
@@ -2227,3 +2240,55 @@ button:focus {
 /*==============================
   CONTACT END
 ===============================*/
+
+
+/* SCROLL BUTTON START */
+.tf__scroll_btn {
+  width: 35px;
+  height: 70px;
+  border-radius: 25px;
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  z-index: 111;
+  cursor: pointer;
+  text-align: center;
+  line-height: 70px;
+  background: var(--colorPrimary);
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.tf__scroll_btn span {
+  font-size: 16px;
+  color: var(--colorWhite);
+  animation: scroll_amini linear 2s infinite alternate;
+  -webkit-animation: scroll_amini linear 2s infinite alternate;
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+@keyframes scroll_amini {
+  from {
+    bottom: -17px;
+  }
+
+  to {
+    bottom: 12px;
+  }
+}
+
+/* SCROLL BUTTON END */

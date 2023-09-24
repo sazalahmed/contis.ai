@@ -32,5 +32,30 @@ $(function () {
 
 
 
+    //=======SMALL DEVICE MENU ICON======
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
+    });
+
+
+    //======SCROLL BUTTON=======
+    $('.tf__scroll_btn').on('click', function () {
+        $('html, body').animate({
+            scrollTop: 0,
+        }, 200);
+    });
+
+    $(window).on('scroll', function () {
+        var scrolling = $(this).scrollTop();
+
+        if (scrolling > 400) {
+            $('.tf__scroll_btn').fadeIn();
+        } else {
+            $('.tf__scroll_btn').fadeOut();
+        }
+    });
+
+
+
 });
 
