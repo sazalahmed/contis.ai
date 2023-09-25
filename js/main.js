@@ -18,6 +18,11 @@ $(function () {
 
 
 
+    //=======COUNTER JS=======
+    $('.counter').countUp();
+
+
+
     //*=====TESTIMONIAL SLIDER===== 
     $('.testi_slider').slick({
         slidesToShow: 1,

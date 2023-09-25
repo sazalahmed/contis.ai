@@ -569,7 +569,7 @@ button:focus {
 
 .tf__single_service_right {
   background: var(--colorPrimary);
-  padding: 50px 30px 188px;
+  padding: 50px 30px 164px;
   border-radius: 10px;
   position: relative;
 }
@@ -768,12 +768,15 @@ button:focus {
 
 .tf__counter_text {
   float: left;
+  width: 75%;
 }
 
-.tf__counter_text h2 {
+.tf__counter_text h2,
+.tf__counter_text h2 span {
   text-align: center;
-  font-size: 106px;
+  font-size: 100px;
   font-weight: 700;
+  color: var(--colorSecondary);
 }
 
 .tf__counter_text h4 {
@@ -783,9 +786,9 @@ button:focus {
 }
 
 .tf__counter_img {
-  width: 220px;
   height: 220px;
   float: left;
+  width: 25%;
 }
 
 /*work process end*/
@@ -1185,6 +1188,10 @@ button:focus {
   -moz-transition: all linear .3s;
   -ms-transition: all linear .3s;
   -o-transition: all linear .3s;
+}
+
+.tf__unlock_img {
+  height: 140px;
 }
 
 .tf__unlock_heading {
