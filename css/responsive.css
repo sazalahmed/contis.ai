@@ -1,4 +1,12 @@
-@media (min-width: 1400px) and (max-width: 1600px) {}
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+
+    .tf__banner::after {
+        top: 110px;
+        left: 280px;
+    }
+
+}
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
 
@@ -26,14 +34,55 @@
         font-size: 84px;
     }
 
+    .tf__single_testimonial {
+        padding: 50px;
+    }
+
+    .tf__testimonial_img {
+        width: 30%;
+        height: 345px;
+        float: left;
+    }
+
+    .tf__testimonial_text {
+        width: 55%;
+    }
+
+
+    .tf__testimonial_text h4 {
+        font-size: 30px;
+    }
+
     .tf__unlock_img {
         height: 114px;
+    }
+
+    .tf__address {
+        margin-top: 0;
     }
 
     /*==============================
     HOME PAGE END
     ===============================*/
+
+
+
+    /*==============================
+    CONTACT START
+    ===============================*/
+
+    .tf__blog_checkbox {
+        margin-bottom: 45px;
+    }
+
+    /*==============================
+    CONTACT END
+    ===============================*/
+
 }
+
+
+
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
 
@@ -51,6 +100,7 @@
 
 
     /* banner start */
+
     .tf__banner::after {
         left: 59px;
     }
@@ -98,6 +148,7 @@
 
 
     /* work process start */
+
     .tf__work_process_img {
         height: 420px;
         width: 90%;
@@ -131,6 +182,38 @@
     /* work process end */
 
 
+    /* contant_creator start */
+
+    .tf__content_creator_top_text h4 {
+        font-size: 32px;
+    }
+
+    /* contant_creator end */
+
+
+    /*  testimonial start */
+
+    .tf__single_testimonial {
+        padding: 50px;
+    }
+
+    .tf__testimonial_img {
+        width: 40%;
+        height: 345px;
+        float: left;
+    }
+
+    .tf__testimonial_text {
+        width: 55%;
+    }
+
+    .tf__testimonial_text h4 {
+        font-size: 30px;
+    }
+
+    /*  testimonial end */
+
+
     /* fotter end */
     .tf__unlock {
         padding: 60px 30px;
@@ -140,18 +223,82 @@
         height: 156px;
     }
 
+    .tf__address_md {
+        margin-top: 30px !important;
+    }
+
     /* fotter end */
+
     /*==============================
     HOME PAGE END
     ===============================*/
 
 
+    /*==============================
+    ABOUT START
+    ===============================*/
+
+    .tf__single_service_responsib {
+        margin-top: 25px !important;
+    }
+
+    .tf__free_iteam_img {
+        width: 430px;
+        height: 373px;
+    }
+
+    /*==============================
+    ABOUT END
+    ===============================*/
+
+
+
+    /*==============================
+    BLOG START
+    ===============================*/
+
+    .tf__single_blog_img {
+        height: 260px;
+    }
+
+    /*==============================
+    BLOG END
+    ===============================*/
+
+
+
+    /*==============================
+    BLOG DETAILS START
+    ===============================*/
+
+    .tf__blog_checkbox {
+        margin-bottom: 45px;
+    }
+
+    .tf__blog_details_responsib {
+        margin-top: 35px !important;
+    }
+
+    /*==============================
+    BLOG DETAILS END
+    ===============================*/
+
+
+    /*==============================
+    CONTACT START
+    ===============================*/
+
+    .tf__blog_form {
+        margin-top: 35px;
+    }
+
+    /*==============================
+    CONTACT END
+    ===============================*/
 
 
 
 }
-
-
 
 
 
@@ -272,6 +419,7 @@
 
 
     /* service start */
+
     .tf__brand_heading h6 {
         font-size: 16px;
     }
@@ -289,10 +437,19 @@
         font-size: 36px;
     }
 
+    .tf__single_service_right {
+        padding: 20px 30px 45px;
+    }
+
+    .tf__single_service_right_heading {
+        font-size: 30px;
+    }
+
     /* service end */
 
 
     /* work_process start */
+
     .tf__work_process_img {
         height: 360px;
         margin-bottom: 45px;
@@ -332,21 +489,26 @@
         margin-bottom: 20px;
     }
 
+    .tf__counter_text {
+        width: 72%;
+    }
+
     .tf__counter_img {
-        height: 630px;
-        width: 100%;
+        height: 250px;
+        width: 25%;
     }
 
     /* work_process end */
 
 
     /* contant_creator page start */
+
     .tf__content_creator_top {
         padding: 20px 0px;
     }
 
     .tf__content_creator_top_img {
-        height: 450px;
+        height: 390px;
         padding: 0px 20px;
     }
 
@@ -368,10 +530,39 @@
         height: 450px;
     }
 
+    .tf__single_content_creator_bottom_text h4 {
+        font-size: 30px;
+    }
+
     /*  contant_creator end */
 
 
+    /*  testimonial start */
+
+    .tf__single_testimonial {
+        padding: 50px;
+    }
+
+    .tf__testimonial_img {
+        width: 40%;
+        height: 345px;
+        float: left;
+    }
+
+    .tf__testimonial_text {
+        width: 55%;
+    }
+
+    .tf__testimonial_text h4 {
+        font-size: 30px;
+    }
+
+    /*  testimonial end */
+
+
+
     /*  faq start */
+
     .tf__faq_accordion .accordion-item .accordion-button {
         font-size: 18px;
     }
@@ -380,8 +571,9 @@
 
 
     /*  footer start */
+
     .tf__unlock {
-        padding: 60px 20px;
+        padding: 60px 37px;
     }
 
     .tf__unlock_heading h2 {
@@ -394,9 +586,11 @@
     }
 
     .tf__unlock_img {
-        height: 270px;
-        width: 50%;
-        margin: auto;
+        display: none;
+    }
+
+    .tf__address_md {
+        margin-top: 30px !important;
     }
 
     .tf__copyright {
@@ -414,13 +608,78 @@
 
     /*  footer end */
 
-
     /*==============================
     HOME PAGE END
     ===============================*/
 
 
 
+    /*==============================
+    ABOUT START
+    ===============================*/
+    .tf__about_img {
+        margin-top: 35px;
+        width: 80%;
+        height: 500px;
+    }
+
+    .tf__single_service_responsib {
+        margin-top: 25px !important;
+    }
+
+    .tf__team_img {
+        height: 320px;
+        margin-bottom: 35px;
+        width: 50%;
+    }
+
+    /*==============================
+    ABOUT END
+    ===============================*/
+
+
+
+    /*==============================
+    BLOG DETAILS START
+    ===============================*/
+
+    .tf__blog_details_left_img {
+        height: 430px;
+    }
+
+    .tf__blog_details_author ul li {
+        margin-right: 20px;
+    }
+
+    .tf__blog_details_left_text_img {
+        height: 200px;
+    }
+
+    .tf__blog_checkbox {
+        margin-bottom: 45px;
+    }
+
+    .tf__blog_details_responsib {
+        margin-top: 35px !important;
+    }
+
+    /*==============================
+    BLOG DETAILS END
+    ===============================*/
+
+
+
+    /*==============================
+    CONTACT START
+    ===============================*/
+
+    .tf__blog_form {
+        margin-top: 35px;
+    }
+
+    /*==============================
+    CONTACT END
+    ===============================*/
 
 
 
@@ -545,6 +804,7 @@
 
 
     /* service start */
+
     .tf__brand_heading h6 {
         font-size: 16px;
     }
@@ -574,6 +834,7 @@
 
 
     /* work_process start */
+
     .tf__work_process_img {
         height: 360px;
         margin-bottom: 45px;
@@ -621,12 +882,11 @@
         height: 144px;
     }
 
-
-
     /* work_process end */
 
 
     /* contant_creator page start */
+
     .tf__content_creator_top {
         padding: 20px 0px;
     }
@@ -695,6 +955,7 @@
 
 
     /*  faq start */
+
     .tf__faq_accordion .accordion-item .accordion-button {
         font-size: 18px;
     }
@@ -703,6 +964,7 @@
 
 
     /*  footer start */
+
     .tf__unlock {
         padding: 60px 20px;
     }
@@ -720,10 +982,6 @@
         margin-top: 22px;
     }
 
-
-
-
-
     .tf__copyright {
         margin-top: 60px !important;
     }
@@ -737,11 +995,100 @@
         margin-left: 0;
     }
 
-    /*  footer end */
+    .tf__quick_link_sm {
+        margin-top: 25px;
+    }
 
+    /*  footer end */
 
     /*==============================
     HOME PAGE END
+    ===============================*/
+
+
+    /*==============================
+    ABOUT START
+    ===============================*/
+    .tf__about_img {
+        margin-top: 35px;
+        width: 80%;
+        height: 500px;
+    }
+
+    .tf__single_service_responsib {
+        margin-top: 25px !important;
+    }
+
+    .tf__team_img {
+        height: 320px;
+        margin-bottom: 35px;
+        width: 65%;
+    }
+
+    .tf__free_iteam_img {
+        width: 400px;
+        height: 345px;
+    }
+
+    /*==============================
+    ABOUT END
+    ===============================*/
+
+
+    /*==============================
+    BLOG START
+    ===============================*/
+
+    .tf__blog_search input {
+        width: 100%;
+    }
+
+    .tf__single_blog_img {
+        height: 300px;
+    }
+
+    /*==============================
+    BLOG END
+    ===============================*/
+
+
+    /*==============================
+    BLOG DETAILS START
+    ===============================*/
+
+    .tf__blog_details_left_img {
+        height: 320px;
+    }
+
+    .tf__blog_details_author ul li {
+        margin-right: 20px;
+    }
+
+    .tf__blog_checkbox {
+        margin-bottom: 45px;
+    }
+
+    .tf__blog_details_responsib {
+        margin-top: 35px !important;
+    }
+
+    /*==============================
+    BLOG DETAILS END
+    ===============================*/
+
+    /*==============================
+    CONTACT START
+    ===============================*/
+    .tf__contact_area {
+        margin-bottom: 25px;
+    }
+
+    .tf__blog_form {
+        margin-top: 35px;
+    }
+
+    /*==============================
+    CONTACT END
     ===============================*/
 
 
@@ -865,6 +1212,7 @@
 
 
     /* service start */
+
     .tf__brand_heading h6 {
         font-size: 16px;
     }
@@ -887,7 +1235,6 @@
     }
 
     /* service end */
-
 
 
     /* work_process start */
@@ -981,7 +1328,6 @@
         margin-right: 0;
     }
 
-
     .tf__single_testimonial {
         padding: 30px;
     }
@@ -990,7 +1336,6 @@
         width: auto;
         height: auto;
     }
-
 
     .tf__testimonial_text {
         max-width: 100%;
@@ -1018,6 +1363,7 @@
 
 
     /*  faq start */
+
     .tf__faq_accordion .accordion-item .accordion-button {
         font-size: 18px;
     }
@@ -1026,6 +1372,7 @@
 
 
     /*  footer start */
+
     .tf__unlock {
         padding: 60px 20px;
     }
@@ -1064,41 +1411,103 @@
     }
 
     /*  footer end */
+
     /*==============================
     HOME PAGE END
     ===============================*/
 
 
+
     /*==============================
     ABOUT START
     ===============================*/
+    .tf__about_img {
+        margin-top: 35px;
+    }
 
-    /*  page start */
-    /*  page end */
+    .tf__single_service_responsib {
+        margin-top: 25px !important;
+    }
 
+    .tf__team_img {
+        height: 320px;
+        margin-bottom: 35px;
+    }
+
+    .tf__free_iteam_img {
+        width: 280px;
+        height: 245px;
+    }
 
     /*==============================
     ABOUT END
     ===============================*/
 
 
+    /*==============================
+    BLOG START
+    ===============================*/
+
+    .tf__blog_search input {
+        width: 100%;
+    }
+
+    /*==============================
+    BLOG END
+    ===============================*/
 
 
-    /*  page start */
-    /*  page end */
+    /*==============================
+    BLOG DETAILS START
+    ===============================*/
+
+    .tf__blog_details_left_img {
+        height: 180px;
+    }
+
+    .tf__blog_details_author ul li {
+        margin-top: 20px;
+    }
+
+    .tf__blog_details_left_text_img {
+        height: 180px;
+    }
+
+
+    .tf__blog_social_link ul li a,
+    .tf__blog_social_media ul li a {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .tf__blog_checkbox {
+        margin-bottom: 70px;
+    }
+
+    .tf__blog_details_responsib {
+        margin-top: 35px !important;
+    }
+
+    /*==============================
+    BLOG DETAILS END
+    ===============================*/
 
 
 
+    /*==============================
+    CONTACT START
+    ===============================*/
+    .tf__contact_area {
+        margin-bottom: 25px;
+    }
 
+    .tf__blog_form {
+        margin-top: 35px;
+    }
 
-
-
-
-
-
-
-
-
+    /*==============================
+    CONTACT END
+    ===============================*/
 
 
 }
