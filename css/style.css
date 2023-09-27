@@ -520,7 +520,6 @@ button:focus {
 .tf__single_service a {
   font-size: 20px;
   font-weight: 700;
-  display: block;
   font-family: var(--headingFont);
   color: var(--colorSecondary) !important;
   transition: all linear .3s;
@@ -530,8 +529,12 @@ button:focus {
   -o-transition: all linear .3s;
 }
 
-.tf__single_service:hover a {
+.tf__single_service:hover .tf__single_service_link {
   color: var(--colorWhite) !important;
+}
+
+.tf__main_service .tf__single_service .tf__single_service_link:hover {
+  color: var(--colorPrimary) !important;
 }
 
 .tf__single_service a:hover {
@@ -872,7 +875,7 @@ button:focus {
   left: 0;
 }
 
-.tf__content_creator_top:hover .tf__content_creator_top_text h4 {
+.tf__content_creator_top_text h4:hover {
   color: var(--colorPrimary);
 }
 
@@ -914,7 +917,7 @@ button:focus {
   margin-bottom: 35px;
 }
 
-.tf__single_content_creator_bottom:hover h4 {
+.tf__single_content_creator_bottom h4:hover {
   color: var(--colorPrimary);
 }
 
@@ -922,6 +925,7 @@ button:focus {
 
 
 /*testimonial start*/
+
 .tf__testimonial {
   background: var(--colorSecondary);
   border-radius: 40px 40px 0px 0px;
@@ -1227,13 +1231,6 @@ button:focus {
   -o-transition: all linear .3s;
 }
 
-/* .tf__unlock:hover .tf__unlock_heading h6 {
-  color: var(--colorWhite);
-}
-
-.tf__unlock:hover .tf__unlock_heading h2 {
-  color: var(--colorPrimary);
-} */
 
 .tf__unlock_text ul {
   margin-top: 15px;
@@ -1453,6 +1450,7 @@ button:focus {
 /*==============================
   ABOUT PAGE START
 ===============================*/
+
 /*about start*/
 .tf__about {
   background: var(--background-brand-2, linear-gradient(102deg, #DBF1C3 -7.72%, #DCE7E3 86.48%));
@@ -1553,7 +1551,7 @@ button:focus {
   margin-top: 5px;
 }
 
-.tf__single_benifit:hover h5 {
+.tf__single_benifit h5:hover {
   color: var(--colorPrimary) !important;
 }
 
@@ -1605,6 +1603,7 @@ button:focus {
 
 
 /*testimonial start*/
+
 .tf__about_testimonial {
   background: var(--colorWhite);
   border-radius: 0;
@@ -1637,6 +1636,7 @@ button:focus {
 /*==============================
   PRICING START
 ===============================*/
+
 .tf__pricing_testimonial {
   background: var(--background-brand-2, linear-gradient(102deg, #DBF1C3 -7.72%, #DCE7E3 86.48%));
   border-radius: 0;
@@ -1652,11 +1652,10 @@ button:focus {
 
 
 
-
-
 /*==============================
   FEATURES START
 ===============================*/
+
 .tf__features {
   background: var(--background-brand-2, linear-gradient(102deg, #DBF1C3 -7.72%, #DCE7E3 86.48%));
 }
@@ -1688,6 +1687,7 @@ button:focus {
 /*==============================
   BLOG START
 ===============================*/
+
 .tf__blog {
   background: var(--background-brand-2, linear-gradient(102deg, #DBF1C3 -7.72%, #DCE7E3 86.48%));
 }
@@ -1712,10 +1712,10 @@ button:focus {
   border: none;
 }
 
-.tf__blog_search span {
+.tf__blog_search .tf__search_icon {
   position: absolute;
   top: 8px;
-  right: -44px;
+  right: -45px;
   font-size: 20px;
   color: var(--colorSecondary);
 }
@@ -2195,6 +2195,9 @@ button:focus {
 /*==============================
   CONTACT START
 ===============================*/
+
+
+
 .tf__contact_area {
   padding: 40px;
   border-radius: 10px;
@@ -2240,6 +2243,7 @@ button:focus {
   background: var(--colorWhite);
   color: var(--colorPrimary);
 }
+
 
 .tf__contact_icon_text p {
   font-size: 20px;

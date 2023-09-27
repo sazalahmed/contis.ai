@@ -1286,7 +1286,7 @@
     /* work_process end */
 
 
-    /* contant_creator page start */
+    /* contant_creator  start */
 
     .tf__content_creator_top_img {
         width: auto;
@@ -1456,6 +1456,16 @@
         width: 100%;
     }
 
+    .tf__blog_search .tf__search_icon {
+        right: 15px;
+    }
+
+    .tf__blog_categories p {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
     /*==============================
     BLOG END
     ===============================*/
@@ -1477,6 +1487,9 @@
         height: 180px;
     }
 
+    .tf__blog_post_tag h6 {
+        margin-bottom: 15px;
+    }
 
     .tf__blog_social_link ul li a,
     .tf__blog_social_media ul li a {
@@ -1501,6 +1514,11 @@
     /*==============================
     CONTACT START
     ===============================*/
+    .tf__contact_icon_text {
+        width: 100%;
+        margin-top: 15px;
+    }
+
     .tf__contact_area {
         margin-bottom: 25px;
     }
