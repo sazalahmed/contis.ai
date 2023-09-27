@@ -1,0 +1,27 @@
+html link
+
+<link rel="stylesheet" href="css/nice-select.css">
+
+
+HTML MARKUP
+
+    <label>Color</label>
+     <select class="select_js">
+           <option value=""> Please Select </option>
+           <option value="">Red</option>
+           <option value="">Black</option>
+           <option value="">Orange</option>
+           <option value="">Rose Gold</option>
+           <option value="">Pink</option>
+       </select>
+
+
+first link to js
+
+<script src="js/jquery.nice-select.min.js"></script>
+
+
+main.js activation
+
+/*==============NICE SELECT==================*/ 
+   $('.select_js').niceSelect();
