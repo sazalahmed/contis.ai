@@ -823,7 +823,7 @@
     }
 
     .tf__single_service_right {
-        padding: 5px 30px 90px;
+        padding: 20px 30px 30px;
     }
 
     .tf__single_service_right_heading {
@@ -924,7 +924,7 @@
     /*  testimonial start */
 
     .tf__single_testimonial {
-        padding: 60px 82px 60px 109px;
+        padding: 50px;
     }
 
     .tf__testimonial_img {
@@ -1231,7 +1231,7 @@
     }
 
     .tf__single_service_right {
-        padding: 5px 30px 90px;
+        padding: 20px 30px 90px;
     }
 
     /* service end */
@@ -1394,20 +1394,24 @@
 
     .tf__quick_link h5,
     .tf__address h5 {
-        margin-top: 35px;
+        margin-top: 50px;
     }
 
     .tf__copyright {
         margin-top: 60px !important;
     }
 
-    .tf__copyright p {
-        margin-bottom: 10px;
+    .tf__copyright {
+        margin-top: 100px !important;
     }
 
     .tf__copyright ul li a {
         margin-right: 25px !important;
         margin-left: 0;
+    }
+
+    .tf__copyright p {
+        margin-bottom: 15px;
     }
 
     /*  footer end */

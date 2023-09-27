@@ -123,6 +123,11 @@ button:focus {
 
 .tf__common_btn2 i {
   color: var(--paraColor) !important;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
 }
 
 .tf__common_btn2:hover i {
@@ -291,7 +296,7 @@ button:focus {
   font-weight: 400;
   display: block;
   text-transform: capitalize;
-  border-bottom: 1px solid #00a6fb26;
+  border-bottom: 1px solid #eeeeeea6;
   padding: 7px 20px;
   border-left: 1px solid transparent;
   transition: all linear .3s;
@@ -303,9 +308,9 @@ button:focus {
 
 .tf__dropdown li a:hover,
 .tf__dropdown li a.active {
-  color: var(--colorBlack) !important;
-  background: #00a6fb12;
+  background: #ff856512;
   border-left: 5px solid var(--colorPrimary);
+  color: var(--colorPrimary) !important;
 }
 
 .tf__dropdown li:last-child a {
@@ -493,7 +498,7 @@ button:focus {
   -moz-transition: all linear .3s;
   -ms-transition: all linear .3s;
   -o-transition: all linear .3s;
-  border: 1px solid var(--colorWhite);
+  border: 1px solid #F8F6F9;
 }
 
 .tf__single_service span {
@@ -515,13 +520,18 @@ button:focus {
 .tf__single_service a {
   font-size: 20px;
   font-weight: 700;
+  display: block;
   font-family: var(--headingFont);
-  color: var(--colorSecondary);
+  color: var(--colorSecondary) !important;
   transition: all linear .3s;
   -webkit-transition: all linear .3s;
   -moz-transition: all linear .3s;
   -ms-transition: all linear .3s;
   -o-transition: all linear .3s;
+}
+
+.tf__single_service:hover a {
+  color: var(--colorWhite) !important;
 }
 
 .tf__single_service a:hover {
@@ -552,7 +562,7 @@ button:focus {
 
 .tf__single_service:hover {
   background: transparent;
-  border: 1px solid var(--colorPrimary);
+  border-color: var(--colorPrimary);
 }
 
 .tf__single_service:hover a {
@@ -1217,16 +1227,17 @@ button:focus {
   -o-transition: all linear .3s;
 }
 
-.tf__unlock:hover .tf__unlock_heading h6 {
+/* .tf__unlock:hover .tf__unlock_heading h6 {
   color: var(--colorWhite);
 }
 
 .tf__unlock:hover .tf__unlock_heading h2 {
   color: var(--colorPrimary);
-}
+} */
 
 .tf__unlock_text ul {
   margin-top: 15px;
+  flex-wrap: wrap;
 }
 
 .tf__unlock_text ul li {
@@ -1262,7 +1273,7 @@ button:focus {
   -o-transition: all linear .3s;
 }
 
-.tf__unlock:hover .tf__unlock_btn a {
+.tf__unlock .tf__unlock_btn a:hover {
   background: var(--colorPrimary);
   color: var(--colorWhite);
 }
@@ -1495,6 +1506,7 @@ button:focus {
 .tf___main_benefits {
   background: var(--colorWhite);
   border-radius: 40px 40px 0px 0px;
+  border: 1px solid var(--colorWhite);
 }
 
 .tf__single_benifit {
@@ -1518,7 +1530,7 @@ button:focus {
   background: var(--colorPrimary);
 }
 
-.tf__single_benifit:hover a {
+.tf__single_benifit a:hover {
   color: var(--colorPrimary);
 }
 
@@ -1988,6 +2000,21 @@ button:focus {
   font-size: 18px;
   margin-right: 37px;
   color: var(--colorSecondary);
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+.tf__blog_social_link ul li:last-child a,
+.tf__blog_social_media ul li:last-child a {
+  margin-right: 0;
+}
+
+.tf__blog_social_link ul li a:hover,
+.tf__blog_social_media ul li a:hover {
+  color: var(--colorPrimary);
 }
 
 .tf__blog_form h4 {
@@ -2035,12 +2062,16 @@ button:focus {
   text-transform: capitalize;
 }
 
+.tf__blog_details_right form {
+  margin-top: 15px;
+  position: relative;
+}
+
 .tf__blog_details_right input {
   width: 100%;
   padding: 11px 16px;
   background: var(--colorWhite);
   border: none;
-  margin-top: 15px;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -2050,10 +2081,20 @@ button:focus {
 
 .tf__search_icon {
   position: absolute;
-  font-size: 22px;
-  top: 75px;
-  right: 44px;
+  font-size: 20px;
+  top: 8px;
+  right: 13px;
   color: var(--colorSecondary);
+  background: none;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+.tf__search_icon:hover {
+  color: var(--colorPrimary);
 }
 
 .tf__blog_details_categories {
@@ -2163,6 +2204,9 @@ button:focus {
   -moz-transition: all linear .3s;
   -ms-transition: all linear .3s;
   -o-transition: all linear .3s;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .tf__contact_area span {
@@ -2174,7 +2218,7 @@ button:focus {
   text-align: center;
   color: var(--colorWhite);
   background: var(--colorPrimary);
-  float: left;
+  /* float: left; */
   margin-right: 12px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -2203,10 +2247,16 @@ button:focus {
   font-family: var(--headingFont);
   color: var(--colorSecondary);
   letter-spacing: -1px;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
 }
 
 .tf__contact_icon_text a {
   font-size: 18px;
+  display: block;
   font-weight: 500;
   font-family: var(--headingFont);
   color: rgba(17, 16, 19, 0.60);
@@ -2217,7 +2267,8 @@ button:focus {
   -o-transition: all linear .3s;
 }
 
-.tf__contact_area:hover .tf__contact_icon_text a {
+.tf__contact_area:hover .tf__contact_icon_text a,
+.tf__contact_area:hover .tf__contact_icon_text p {
   color: var(--colorWhite);
 }
 
