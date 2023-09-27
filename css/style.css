@@ -1728,50 +1728,19 @@ button:focus {
   margin-right: 10px;
 }
 
-.tf__blog_dropdown {
-  margin-left: 10px;
-  background: rgba(144, 145, 156, 0.08);
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+.tf__blog_selectbox li {
+  padding-left: 15px;
 }
 
-.tf__blog_dropdown button {
-  background: rgba(144, 145, 156, 0.08);
-  color: var(--colorSecondary);
+.tf__blog_selectbox li .select_js {
+  background: rgba(144, 145, 156, 0.08) !important;
   border: none;
 }
 
-.tf__blog_dropdown button span {
-  font-size: 20px;
-  margin-left: 5px;
-}
-
-.tf__blog_dropdown .btn-secondary:hover {
-  color: var(--colorSecondary);
-  background: rgba(144, 145, 156, 0.08);
-  border: none;
-  box-shadow: none;
-}
-
-.dropdown-toggle::after {
-  display: none;
-}
-
-.tf__blog_dropdown .btn-check:focus+.btn-secondary,
-.btn-secondary:focus {
-  background: rgba(144, 145, 156, 0.08);
-  color: var(--colorSecondary);
-  border: 0;
-  box-shadow: none;
-}
-
-.tf__blog_dropdown .dropdown-item.active,
-.dropdown-item:active {
-  color: var(--colorSecondary);
-  background: none;
+.tf__blog_selectbox li .select_js option {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: var(--paraFont);
 }
 
 .tf__single_blog {
