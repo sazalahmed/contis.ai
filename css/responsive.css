@@ -811,8 +811,8 @@
     .tf__banner::after {
         width: 430px;
         height: 350px;
-        top: 127px;
-        left: 46px;
+        top: 160px;
+        left: 90px;
     }
 
     .tf__banner_text h1 {
@@ -971,7 +971,7 @@
 
     .tf__testimonial_img {
         width: 100%;
-        height: 320px;
+        height: auto;
     }
 
     .tf__testimonial_text {
