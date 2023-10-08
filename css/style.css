@@ -1,3 +1,25 @@
+/* ***************************************
+Template Name: Contis.ai - AI Content Writing HTML Template
+Author:  
+Author E
+website: 
+Version: 1.0
+Description: 
+***************************************
+
+CSS TABLE OF CONTENTS
+===================================
+01. GLOBAL CSS 
+02. HOME PAGE
+03. ABOUT PAGE
+04. PRICING PAGE
+05. FEATURES PAGE
+06. BLOG PAGE
+07. BLOG DETAILS
+08. CONTACT PAGE
+
+
+
 /*==============================
   GLOBAL CSS START
 ===============================*/
@@ -169,7 +191,6 @@ button:focus {
 /*==============================
   GLOBAL CSS START
 ===============================*/
-
 
 /*==============================
   HOME PAGE START
@@ -366,7 +387,6 @@ button:focus {
 
 /* main manu end */
 
-
 /*banner start*/
 .tf__banner {
   background: var(--colorWhite);
@@ -450,7 +470,6 @@ button:focus {
 }
 
 /*banner end*/
-
 
 /*service start*/
 .tf__service {
@@ -634,7 +653,6 @@ button:focus {
 
 /*service end*/
 
-
 /*work process start*/
 .tf__work_process_img {
   position: relative;
@@ -711,7 +729,6 @@ button:focus {
 .tf__process_accordion .tf__process_accordion_btn:not(.collapsed) span {
   background: var(--colorPrimary);
 }
-
 
 .tf__process_accordion .accordion-item #headingThree .tf__process_accordion_btn span::after {
   display: none;
@@ -806,7 +823,6 @@ button:focus {
 }
 
 /*work process end*/
-
 
 /*content creator start*/
 .tf__content_creator {
@@ -920,9 +936,7 @@ button:focus {
 
 /*content creator end*/
 
-
 /*testimonial start*/
-
 .tf__testimonial {
   background: var(--colorSecondary);
   border-radius: 40px 40px 0px 0px;
@@ -1026,7 +1040,6 @@ button:focus {
 
 /*testimonial end*/
 
-
 /*pricing start*/
 .tf__single_pricing {
   background: rgb(248, 246, 249);
@@ -1111,8 +1124,6 @@ button:focus {
 
 /*pricing end*/
 
-
-
 /*faq start*/
 .tf__faq {
   border-radius: 40px 40px 0px 0px;
@@ -1176,8 +1187,6 @@ button:focus {
 
 /*faq end*/
 
-
-
 /* footer start */
 .tf__footer {
   position: relative;
@@ -1227,7 +1236,6 @@ button:focus {
   -ms-transition: all linear .3s;
   -o-transition: all linear .3s;
 }
-
 
 .tf__unlock_text ul {
   margin-top: 15px;
@@ -1437,17 +1445,65 @@ button:focus {
 }
 
 /* footer end */
+
+/* SCROLL BUTTON START */
+.tf__scroll_btn {
+  width: 35px;
+  height: 70px;
+  border-radius: 25px;
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  z-index: 111;
+  cursor: pointer;
+  text-align: center;
+  line-height: 70px;
+  background: var(--colorPrimary);
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.tf__scroll_btn span {
+  font-size: 16px;
+  color: var(--colorWhite);
+  animation: scroll_amini linear 2s infinite alternate;
+  -webkit-animation: scroll_amini linear 2s infinite alternate;
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+@keyframes scroll_amini {
+  from {
+    bottom: -17px;
+  }
+
+  to {
+    bottom: 12px;
+  }
+}
+
+/* SCROLL BUTTON END */
+
 /*==============================
   HOME PAGE END
 ===============================*/
 
-
-
-
 /*==============================
   ABOUT PAGE START
 ===============================*/
-
 /*about start*/
 .tf__about {
   background: var(--background-brand-2, linear-gradient(102deg, #DBF1C3 -7.72%, #DCE7E3 86.48%));
@@ -1491,7 +1547,6 @@ button:focus {
 }
 
 /*about end*/
-
 
 /*benefit start*/
 .tf__benefits {
@@ -1571,9 +1626,7 @@ button:focus {
 
 /*benefit end*/
 
-
 /*team start*/
-
 .tf__team_img {
   height: 394px;
   position: relative;
@@ -1598,9 +1651,7 @@ button:focus {
 
 /*team end*/
 
-
 /*testimonial start*/
-
 .tf__about_testimonial {
   background: var(--colorWhite);
   border-radius: 0;
@@ -1615,7 +1666,6 @@ button:focus {
 }
 
 /*testimonial end*/
-
 .tf__about_faq {
   background: var(--colorWhite);
 }
@@ -1628,12 +1678,9 @@ button:focus {
   ABOUT PAGE END
 ===============================*/
 
-
-
 /*==============================
-  PRICING START
+  PRICING PAGE START
 ===============================*/
-
 .tf__pricing_testimonial {
   background: var(--background-brand-2, linear-gradient(102deg, #DBF1C3 -7.72%, #DCE7E3 86.48%));
   border-radius: 0;
@@ -1644,15 +1691,12 @@ button:focus {
 }
 
 /*==============================
-  PRICING END
+  PRICING PAGE END
 ===============================*/
-
-
 
 /*==============================
-  FEATURES START
+  FEATURES PAGE START
 ===============================*/
-
 .tf__features {
   background: var(--background-brand-2, linear-gradient(102deg, #DBF1C3 -7.72%, #DCE7E3 86.48%));
 }
@@ -1676,15 +1720,12 @@ button:focus {
 }
 
 /*==============================
-  FEATURES END
+  FEATURES PAGE END
 ===============================*/
-
-
 
 /*==============================
-  BLOG START
-===============================*/
-
+  BLOG PAGE START
+==============================*/
 .tf__blog {
   background: var(--background-brand-2, linear-gradient(102deg, #DBF1C3 -7.72%, #DCE7E3 86.48%));
 }
@@ -1830,10 +1871,8 @@ button:focus {
 }
 
 /*==============================
-  BLOG END
+  BLOG PAGE END
 ===============================*/
-
-
 
 /*==============================
   BLOG DETAILS START
@@ -2156,14 +2195,9 @@ button:focus {
   BLOG DETAILS END
 ===============================*/
 
-
-
 /*==============================
-  CONTACT START
+  CONTACT PAGE START
 ===============================*/
-
-
-
 .tf__contact_area {
   padding: 40px;
   border-radius: 10px;
@@ -2187,7 +2221,6 @@ button:focus {
   text-align: center;
   color: var(--colorWhite);
   background: var(--colorPrimary);
-  /* float: left; */
   margin-right: 12px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -2266,57 +2299,5 @@ button:focus {
 }
 
 /*==============================
-  CONTACT END
+  CONTACT PAGE END
 ===============================*/
-
-
-/* SCROLL BUTTON START */
-.tf__scroll_btn {
-  width: 35px;
-  height: 70px;
-  border-radius: 25px;
-  position: fixed;
-  bottom: 30px;
-  right: 10px;
-  z-index: 111;
-  cursor: pointer;
-  text-align: center;
-  line-height: 70px;
-  background: var(--colorPrimary);
-  transition: all linear .3s;
-  -webkit-transition: all linear .3s;
-  -moz-transition: all linear .3s;
-  -ms-transition: all linear .3s;
-  -o-transition: all linear .3s;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
-}
-
-.tf__scroll_btn span {
-  font-size: 16px;
-  color: var(--colorWhite);
-  animation: scroll_amini linear 2s infinite alternate;
-  -webkit-animation: scroll_amini linear 2s infinite alternate;
-  position: absolute;
-  left: 50%;
-  bottom: -20px;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-}
-
-@keyframes scroll_amini {
-  from {
-    bottom: -17px;
-  }
-
-  to {
-    bottom: 12px;
-  }
-}
-
-/* SCROLL BUTTON END */

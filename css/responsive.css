@@ -1,11 +1,8 @@
 @media (min-width: 1400px) and (max-width: 1600px) {
-
-
     .tf__banner::after {
         top: 110px;
         left: 280px;
     }
-
 }
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
@@ -48,7 +45,6 @@
         width: 55%;
     }
 
-
     .tf__testimonial_text h4 {
         font-size: 30px;
     }
@@ -65,8 +61,6 @@
     HOME PAGE END
     ===============================*/
 
-
-
     /*==============================
     CONTACT START
     ===============================*/
@@ -78,29 +72,21 @@
     /*==============================
     CONTACT END
     ===============================*/
-
 }
-
-
-
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
 
     /*==============================
     HOME PAGE START
     ===============================*/
-
     /* menu start */
-
     .tf__main_menu .navbar-nav .nav-item>a {
         padding: 0px 10px;
     }
 
     /* menu end */
 
-
     /* banner start */
-
     .tf__banner::after {
         left: 59px;
     }
@@ -129,9 +115,7 @@
 
     /* banner end */
 
-
     /* service start */
-
     .tf__common_heading h2 {
         font-size: 45px;
     }
@@ -146,9 +130,7 @@
 
     /* service end */
 
-
     /* work process start */
-
     .tf__work_process_img {
         height: 420px;
         width: 90%;
@@ -181,18 +163,14 @@
 
     /* work process end */
 
-
     /* contant_creator start */
-
     .tf__content_creator_top_text h4 {
         font-size: 32px;
     }
 
     /* contant_creator end */
 
-
     /*  testimonial start */
-
     .tf__single_testimonial {
         padding: 50px;
     }
@@ -213,7 +191,6 @@
 
     /*  testimonial end */
 
-
     /* fotter end */
     .tf__unlock {
         padding: 60px 30px;
@@ -233,7 +210,6 @@
     HOME PAGE END
     ===============================*/
 
-
     /*==============================
     ABOUT START
     ===============================*/
@@ -251,8 +227,6 @@
     ABOUT END
     ===============================*/
 
-
-
     /*==============================
     BLOG START
     ===============================*/
@@ -268,8 +242,6 @@
     /*==============================
     BLOG END
     ===============================*/
-
-
 
     /*==============================
     BLOG DETAILS START
@@ -287,7 +259,6 @@
     BLOG DETAILS END
     ===============================*/
 
-
     /*==============================
     CONTACT START
     ===============================*/
@@ -299,21 +270,13 @@
     /*==============================
     CONTACT END
     ===============================*/
-
-
-
 }
-
-
-
-
 
 @media (min-width: 768px) and (max-width: 991.99px) {
 
     /*==============================
     HOME PAGE START
     ===============================*/
-
     /* menu start */
     .tf__main_menu {
         border-bottom: 1px solid #00000040;
@@ -383,7 +346,6 @@
 
     /* menu end */
 
-
     /* banner start */
     .tf__banner::after {
         width: 465px;
@@ -421,9 +383,7 @@
 
     /* banner end */
 
-
     /* service start */
-
     .tf__brand_heading h6 {
         font-size: 16px;
     }
@@ -451,9 +411,7 @@
 
     /* service end */
 
-
     /* work_process start */
-
     .tf__work_process_img {
         height: 360px;
         margin-bottom: 45px;
@@ -504,9 +462,7 @@
 
     /* work_process end */
 
-
     /* contant_creator page start */
-
     .tf__content_creator_top {
         padding: 20px 0px;
     }
@@ -540,9 +496,7 @@
 
     /*  contant_creator end */
 
-
     /*  testimonial start */
-
     .tf__single_testimonial {
         padding: 50px;
     }
@@ -563,19 +517,14 @@
 
     /*  testimonial end */
 
-
-
     /*  faq start */
-
     .tf__faq_accordion .accordion-item .accordion-button {
         font-size: 18px;
     }
 
     /*  faq end */
 
-
     /*  footer start */
-
     .tf__unlock {
         padding: 60px 37px;
     }
@@ -616,8 +565,6 @@
     HOME PAGE END
     ===============================*/
 
-
-
     /*==============================
     ABOUT START
     ===============================*/
@@ -641,11 +588,9 @@
     ABOUT END
     ===============================*/
 
-
     /*==============================
     BLOG START
     ===============================*/
-
     .tf__blog_search input {
         width: 100%;
     }
@@ -679,12 +624,9 @@
     BLOG END
     ===============================*/
 
-
-
     /*==============================
     BLOG DETAILS START
     ===============================*/
-
     .tf__blog_details_left_img {
         height: 430px;
     }
@@ -709,8 +651,6 @@
     BLOG DETAILS END
     ===============================*/
 
-
-
     /*==============================
     CONTACT START
     ===============================*/
@@ -722,21 +662,13 @@
     /*==============================
     CONTACT END
     ===============================*/
-
-
-
 }
-
-
-
-
 
 @media (min-width: 576px) and (max-width: 767.99px) {
 
     /*==============================
     HOME PAGE START
     ===============================*/
-
     /* menu start */
     .tf__main_menu {
         border-bottom: 1px solid #00000040;
@@ -806,7 +738,6 @@
 
     /* menu end */
 
-
     /* banner start */
     .tf__banner::after {
         width: 430px;
@@ -844,9 +775,7 @@
 
     /* banner end */
 
-
     /* service start */
-
     .tf__brand_heading h6 {
         font-size: 16px;
     }
@@ -874,9 +803,7 @@
 
     /* service end */
 
-
     /* work_process start */
-
     .tf__work_process_img {
         height: 360px;
         margin-bottom: 45px;
@@ -926,9 +853,7 @@
 
     /* work_process end */
 
-
     /* contant_creator page start */
-
     .tf__content_creator_top {
         padding: 20px 0px;
     }
@@ -962,9 +887,7 @@
 
     /*  contant_creator end */
 
-
     /*  testimonial start */
-
     .tf__single_testimonial {
         padding: 50px;
     }
@@ -985,28 +908,21 @@
 
     /*  testimonial end */
 
-
     /*  pricing start */
-
     .tf__single_pricing h5 {
         font-size: 26px;
     }
 
     /*  pricing end */
 
-
-
     /*  faq start */
-
     .tf__faq_accordion .accordion-item .accordion-button {
         font-size: 18px;
     }
 
     /*  faq end */
 
-
     /*  footer start */
-
     .tf__unlock {
         padding: 60px 20px;
     }
@@ -1047,7 +963,6 @@
     HOME PAGE END
     ===============================*/
 
-
     /*==============================
     ABOUT START
     ===============================*/
@@ -1075,7 +990,6 @@
     /*==============================
     ABOUT END
     ===============================*/
-
 
     /*==============================
     BLOG START
@@ -1113,7 +1027,6 @@
     /*==============================
     BLOG END
     ===============================*/
-
 
     /*==============================
     BLOG DETAILS START
@@ -1153,19 +1066,13 @@
     /*==============================
     CONTACT END
     ===============================*/
-
-
 }
-
-
-
 
 @media (max-width: 575.99px) {
 
     /*==============================
     HOME PAGE START
     ===============================*/
-
     /* menu start */
     .tf__main_menu {
         border-bottom: 1px solid #00000040;
@@ -1235,7 +1142,6 @@
 
     /* menu end */
 
-
     /* banner start */
     .tf__banner::after {
         width: 302px;
@@ -1273,9 +1179,7 @@
 
     /* banner end */
 
-
     /* service start */
-
     .tf__brand_heading h6 {
         font-size: 16px;
     }
@@ -1299,9 +1203,7 @@
 
     /* service end */
 
-
     /* work_process start */
-
     .tf__work_process_img {
         width: 78%;
         height: 252px;
@@ -1348,9 +1250,7 @@
 
     /* work_process end */
 
-
     /* contant_creator  start */
-
     .tf__content_creator_top_img {
         width: auto;
         height: auto;
@@ -1385,7 +1285,6 @@
 
     /*  contant_creator end */
 
-
     /*  testimonial start */
     .tf__testimonial_img {
         margin-right: 0;
@@ -1411,9 +1310,7 @@
 
     /*  testimonial start */
 
-
     /*  pricing start */
-
     .tf__single_pricing h5 {
         font-size: 24px;
     }
@@ -1424,18 +1321,14 @@
 
     /*  pricing start */
 
-
     /*  faq start */
-
     .tf__faq_accordion .accordion-item .accordion-button {
         font-size: 18px;
     }
 
     /*  faq end */
 
-
     /*  footer start */
-
     .tf__unlock {
         padding: 60px 20px;
     }
@@ -1483,8 +1376,6 @@
     HOME PAGE END
     ===============================*/
 
-
-
     /*==============================
     ABOUT START
     ===============================*/
@@ -1510,11 +1401,9 @@
     ABOUT END
     ===============================*/
 
-
     /*==============================
     BLOG START
     ===============================*/
-
     .tf__blog_search input {
         width: 100%;
     }
@@ -1539,11 +1428,9 @@
     BLOG END
     ===============================*/
 
-
     /*==============================
     BLOG DETAILS START
     ===============================*/
-
     .tf__blog_details_left_img {
         height: 180px;
     }
@@ -1578,8 +1465,6 @@
     BLOG DETAILS END
     ===============================*/
 
-
-
     /*==============================
     CONTACT START
     ===============================*/
@@ -1599,6 +1484,5 @@
     /*==============================
     CONTACT END
     ===============================*/
-
 
 }
